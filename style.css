@@ -91,3 +91,19 @@ nav a {
 section {
   margin-bottom: 60px;
 }
+
+.lookbook {
+  padding: 220px 20px 180px 20px;
+  background-image: url(assets/image_3.jpg);
+  background-position: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.lookbook h2 {
+  font-style: 64px;
+  color: #fff;
+  font-weight: 700;
+
+}
+
