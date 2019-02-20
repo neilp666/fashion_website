@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body, html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Biryani', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  color: #47353A;
+  line-height: 1.2;
+  color: #000;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #F9CFDF;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+nav {
+  position: absolute;
+  left: 65px;
+  top: 40%;
+  transform: translate(-30%);
+}
+
+nav a {
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 30px;
+  left: 30px;
 }
