@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body, html {
+body {
   font-family: 'Biryani', sans-serif;
   font-size: 16px;
   line-height: 1.2;
   color: #000;
+  width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -21,6 +26,7 @@ header {
   top: 0;
   left: 0;
   height: 100%;
+  transform: translateX(-100%);
 }
 
 nav {
@@ -41,4 +47,20 @@ nav a {
   position: fixed;
   top: 30px;
   left: 30px;
+}
+
+.natural {
+  padding-right: 260px;
+  position: relative;
+}
+
+.natural h2 {
+  font-size: 64px;
+  line-height: 1.125;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 360px;
+  transform: translate(-40%);
 }
