@@ -124,3 +124,24 @@ section {
 .natural:hover h2 {
   transform: scale(1.15);
 }
+
+.one-thing:hover .copy {
+  transform: scale(1.1) translate(20px);
+}
+
+.one-thing img {
+  transition: transform 0.5s ease;
+}
+
+.one-thing:hover img {
+  transform: rotate(10deg);
+}
+
+.lookbook h2 {
+  transition: all 0.5s ease;
+}
+
+.lookbook:hover h2 {
+  transform: scale(1.9);
+  color: rgba(255, 255, 255, 0.8);
+}
