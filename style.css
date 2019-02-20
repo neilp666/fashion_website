@@ -64,3 +64,30 @@ nav a {
   width: 360px;
   transform: translate(-40%);
 }
+
+.one-thing {
+  padding-left: 360px;
+  position: relative;
+}
+
+.one-thing .copy {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 400px;
+}
+
+.one-thing h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.one-thing p {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+section {
+  margin-bottom: 60px;
+}
