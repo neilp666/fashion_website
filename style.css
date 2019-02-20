@@ -58,9 +58,12 @@ nav a {
   font-size: 64px;
   line-height: 1.125;
   font-weight: 700;
+}
+
+.natural .copy {
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 30%;
   width: 360px;
   transform: translate(-40%);
 }
@@ -104,6 +107,20 @@ section {
   font-style: 64px;
   color: #fff;
   font-weight: 700;
-
 }
 
+.natural img {
+  transition: transform 0.5s ease;
+}
+
+.natural:hover img {
+  transform: rotate(-5deg)
+}
+
+.natural h2 {
+  transition: transform 0.5s ease;
+}
+
+.natural:hover h2 {
+  transform: scale(1.15);
+}
